@@ -1,14 +1,14 @@
-﻿using Xamarin.Forms;
-
-namespace CredencialDigital1
+﻿namespace CredencialDigital1
 {
+    using Xamarin.Forms;
+    using Views;
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
 
-            MainPage = new CredencialDigital1Page();
+            MainPage = new MainView();
         }
 
         protected override void OnStart()

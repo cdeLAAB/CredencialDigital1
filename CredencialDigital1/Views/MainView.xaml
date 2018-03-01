@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CredencialDigital1.Views.MainView"
+    BindingContext="{Binding Main, Source={StaticResource Locator}}">
+	<ContentPage.Content>
+        
+        <StackLayout
+
+            Padding="12,15">
+
+        <Label
+                FontAttributes="Bold"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                Text="Credencial Digital Para Egresados">
+
+            </Label>
+            <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Apellido Paterno:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese su apellido">
+            </Entry>
+            <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Apellido Materno:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese su apellido">
+            </Entry>
+             <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Nombre (s):">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese su nombre">
+            </Entry>
+             <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Carrera:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese Carrera">
+            </Entry>
+             <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Nº Control:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese Nº.Control">
+            </Entry>
+             <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Domicilio:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese Domicilio">
+            </Entry>
+             <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Tel. Casa:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese numero">
+            </Entry>
+             <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="Tel. Celular:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="Ingrese numero ">
+            </Entry>
+             <Label
+                FontAttributes="None"
+                FontSize="Medium"
+                Text="E-mail:">
+            </Label>
+            <Entry
+                FontAttributes="Italic"
+                FontSize="Small"
+                Placeholder="E-mail">
+            </Entry> 
+            <ActivityIndicator>
+            </ActivityIndicator>
+
+            <Button
+                BackgroundColor="Silver"
+                BorderRadius="20"
+                HeightRequest="30"
+                FontAttributes="Bold"
+                Text="Generar"
+                TextColor="Black">
+            </Button>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
